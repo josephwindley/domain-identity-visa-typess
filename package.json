@@ -1,0 +1,32 @@
+{
+  "name": "domain-identity-visa-types",
+  "version": "1.0.0",
+  "description": "domain-identity-visa-types",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --delay \"tests/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byu-oit/domain-identity-visa-types.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/byu-oit/domain-identity-visa-types/issues"
+  },
+  "homepage": "https://github.com/byu-oit/domain-identity-visa-types#readme",
+  "private": true,
+  "dependencies": {
+    "@byu-oit/byuapi": "0.0.13",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "node-byuapi-framework": "git://github.com/byu-oit-appdev/node-byuapi-framework.git",
+    "swagger-parser": "^3.4.1",
+    "swagger-response": "^0.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
